@@ -1,0 +1,40 @@
+{
+  "name": "voters-api-v1",
+  "version": "1.0.0",
+  "description": "Voters API built with Nodejs and Express",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "--null",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/Sammysoft/voters-api-v1"
+  },
+  "keywords": [
+    "Vote",
+    "Cast",
+    "Match",
+    "Polls",
+    "Result",
+    "units"
+  ],
+  "author": "Samuel Dare-Owonibi",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.4",
+    "morgan": "^1.10.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
